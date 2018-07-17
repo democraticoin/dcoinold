@@ -1367,13 +1367,13 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
         nSubsidy = 1 * COIN; // instamine prevention
     }
     else if (nHeight > 100 && nHeight <= 200) {
-        nSubsidy = 0 * COIN; // instamine prevention
+        nSubsidy = 1 * COIN; // instamine prevention
     }
     else if (nHeight > 200 && nHeight <= 300) {
-        nSubsidy = 0 * COIN; // instamine prevention
+        nSubsidy = 1 * COIN; // instamine prevention
     }
     else if (nHeight > 300 && nHeight <= 400) {
-        nSubsidy = 0 * COIN; // instamine prevention
+        nSubsidy = 1 * COIN; // instamine prevention
     }
     else if (nHeight > 400 && nHeight <= 1499) {
         nSubsidy = 0 * COIN; // initial block reward
